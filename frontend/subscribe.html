@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="wrap">
+            <nav>
+
+
+                <ul class="navEl flex spaceAround">
+                    <li>
+                        <a href="./index.html">Accueil</a>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">Categories</button>
+                            <div class="dropdown-content">
+                              <a href="catégories.html">Sommaire</a>
+                              <a href="animaux.html">Animaux</a>
+                              <a href="bases.html">Bases</a>
+                              <a href="boites.html">Boites</a>
+                              <a href="fleurs.html">Fleurs</a>
+                              <a href="halloween.html">Halloween</a>
+
+                            </div>
+                          </div>
+                        <!-- <a href="./catégories.html">Categories</a> -->
+                    </li>
+
+                    <img src="./img/logo.svg" class="logo flex centerCenter">
+
+                    <li>
+                        <a href="./connect.html">Se connecter</a>
+                    </li>
+                    <li>
+                        <a href="./subscribe.html">S'inscrire</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header flex centerCenter">
+                <div class="youAreHere flex centerCenter">S'inscrire</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="login-box">
+        <div class="left">
+            <h1>Inscrivez-vous !</h1>
+
+            <input type="text" name="username" placeholder="Pseudo" />
+            <input type="text" name="email" placeholder="E-mail" />
+            <input type="password" name="password" placeholder="Mot de passe" />
+            <input type="password" name="password2" placeholder="Encore le mot de passe..." />
+
+            <input type="submit" name="signup_submit" value="Je valide" />
+        </div>
+
+        <div class="right">
+            <span class="loginwith">Sign in with<br />social network</span>
+
+            <button class="social-signin facebook">S'enregistrer avec Facebook</button>
+            <button class="social-signin twitter">S'enregistrer avec Twitter</button>
+            <button class="social-signin google">S'enregistrer avec Google+ </br>(OK boomer)</button>
+        </div>
+        <div class="or">OU</div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
